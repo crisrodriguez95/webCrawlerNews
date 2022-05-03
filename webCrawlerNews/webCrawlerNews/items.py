@@ -8,5 +8,7 @@ import scrapy
 
 class WebcrawlernewsItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    points = scrapy.Field()
+    comments = scrapy.Field()
+    url = scrapy.Field()
     pass
